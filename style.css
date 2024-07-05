@@ -1,0 +1,40 @@
+
+:root{
+    --green: #4caf50;
+    --white: white;
+    --grey:#333;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color:var(--green);
+  color: var(--white);
+  text-align: center;
+  padding: 1em 0;
+}
+header h1 {
+  background-color: red;
+}
+.main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: var(--grey);
+  color: var(--white);
+  text-align: center;
+  padding: 1em 0;
+
+  width: 100%;
+}
